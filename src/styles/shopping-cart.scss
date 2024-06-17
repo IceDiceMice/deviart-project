@@ -1,0 +1,126 @@
+@import './variable.scss';
+
+table {
+    border-collapse: collapse;
+    border: $default-border;
+    min-width: 872px;
+    border-radius: 10px
+}
+
+tfoot {
+    button {
+        padding: 14px 32px;
+        border-radius: 43px;
+    }
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+tbody {
+    border-top: $default-border;
+    border-bottom: $default-border;
+}
+
+thead {
+    th {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+        padding: 12px;
+    }
+}
+
+.shopping-cart {
+    display: flex;
+}
+
+.carts-info {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.coupon-section {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 872px;
+    border: 1px solid #E6E6E6;
+    padding: 12px;
+    border-radius: 8px;
+
+    button {
+        background-color: #333333;
+    }
+}
+
+.price-section {
+    min-width: 424px;
+    height: fit-content;
+    margin-left: 24px;
+    border: 1px solid #E6E6E6;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        align-self: baseline;
+        margin-bottom: 7px;
+    }
+
+
+    button {
+        padding: 16px 40px;
+        border: none;
+        background-color: #00B207;
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 46px;
+    }
+}
+
+.price-sum {
+    margin-bottom: 24.5px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        box-shadow: 0px 1px #E5E5E5;
+        line-height: 21px;
+        font-size: 14px;
+
+        span:nth-child(1) {
+            font-weight: 400;
+        }
+
+        span:nth-child(2) {
+
+            font-weight: 500;
+
+
+        }
+    }
+
+    div:nth-child(3) {
+        font-size: 16px;
+
+        span:nth-child(1) {
+            line-height: 24px;
+            font-weight: 400px;
+        }
+
+        span:nth-child(2) {
+            line-height: 19.2px;
+            font-weight: 600px;
+        }
+    }
+
+}

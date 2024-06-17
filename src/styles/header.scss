@@ -1,0 +1,72 @@
+@import './variable.scss';
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #CCCCCC;
+   height: 93px;
+   padding: 0 $default-padding
+}
+
+.header-logo {
+   display: flex;
+   align-items: center;
+
+   img {
+      height: 32px;
+      width: 32px;
+   }
+
+   span {
+      font-size: 32px;
+      line-height: 38px;
+      font-weight: 500;
+   }
+}
+
+.divider {
+   margin: 0 16px;
+   height: 24px;
+   width: 1px;
+   background-color: #CCCCCC;
+}
+
+.header-icons {
+   display: flex;
+   align-items: center;
+}
+
+.purchase {
+   display: flex;
+   text-align: center;
+   cursor: pointer;
+}
+
+.bag-icon {
+   position: relative;
+
+   div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      border: $default-border;
+      border-radius: 16px;
+      background-color: #2C742F;
+      color: #FFFFFF;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      font-size: 12px;
+   }
+}
+
+.price {
+   margin-left: 12px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   text-align: left;
+}

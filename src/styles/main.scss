@@ -1,0 +1,11 @@
+@import './variable.scss';
+
+main {
+    padding: 130px $default-padding 200px;
+    flex: 1 1 auto;
+    width: 100%;
+
+    h1 {
+        text-align: center;
+    }
+}

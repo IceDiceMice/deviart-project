@@ -1,0 +1,139 @@
+@import './variable.scss';
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    min-width: 400px;
+    margin: 0 15px 0 30px;
+
+    input {
+        border: 1px solid #E6E6E6;
+        border-radius: 46px;
+        padding: 14px 24px;
+        min-width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        padding: 16px 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        background-color: #00B207;
+        color: #FFFFFF;
+        border-radius: 46px;
+    }
+}
+
+
+.subscribe {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    padding: 0 $default-padding;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-text {
+    margin: 30px 0;
+
+    h3 {
+        line-height: 36px;
+    }
+
+    p {
+        line-height: 12px;
+        font-size: 14px;
+        color: #999999;
+    }
+}
+
+.info-wrapper {
+    padding: 0 $default-padding;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 60px 0;
+
+        p {
+            line-height: 24px;
+            color: #808080;
+        }
+
+        &>div>span {
+            margin: 16px 0;
+        }
+
+
+    }
+}
+
+.footer-options {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px;
+
+        span {
+            line-height: 24px;
+            color: #808080;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.email {
+    color: #FFFFFF;
+    box-shadow: 0px 1.5px #20B526;
+    width: fit-content;
+    line-height: 21px;
+}
+
+.copyright {
+    color: #808080;
+    text-align: center;
+    box-shadow: 0px -1px #333333;
+    padding: 24px 0;
+}
+
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 32px;
+        width: 32px;
+    }
+
+    span {
+        color: #FFFFFF;
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 500;
+    }
+}
